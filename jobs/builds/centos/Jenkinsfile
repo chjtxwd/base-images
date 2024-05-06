@@ -1,0 +1,6 @@
+@Library('buildami') _
+buildAmi{
+    OS = "centos"
+    owners = "demo"
+    template = "demo.json"
+}
